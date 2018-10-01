@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 6, 2016, 1:59:27 PM
+    Author     : daua
+*/
+table[border="1"] {
+    border-collapse:collapse;
+    font:normal normal 11px Verdana,Arial,Sans-Serif;
+    color:#333;
+}
+
+table[border="1"] tr {
+    background-color:#fff;
+}
+
+table[border="1"] th,
+table[border="1"] td {
+    vertical-align:top;
+    padding:5px 10px;
+    border:1px solid #333;
+}
+
+table[border="1"] th {
+    background-color:#333;
+    color:#fff;
+    font-weight:bold;
+}

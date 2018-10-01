@@ -1,0 +1,8 @@
+td.glyphicon {
+    background: no-repeat center center;
+    cursor: pointer;
+}
+tr.shown td.glyphicon {
+    background: no-repeat center center;
+}
+

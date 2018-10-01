@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+    <servlet>
+        <servlet-name>Main</servlet-name>
+        <servlet-class>com.dtsgroup.topshare.user.Main</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>dashboard</servlet-name>
+        <jsp-file>/app/view/dashboard.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>content-addnew</servlet-name>
+        <jsp-file>/app/view/content/content-addnew.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>content-manager</servlet-name>
+        <jsp-file>/app/view/content/content-manager.jsp</jsp-file>
+    </servlet>
+
+    <servlet>
+        <servlet-name>news-manager</servlet-name>
+        <jsp-file>/app/view/content/news-manager.jsp</jsp-file>
+    </servlet>
+
+    <servlet>
+        <servlet-name>category-addnew</servlet-name>
+        <jsp-file>/app/view/category-addnew.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>category-manager</servlet-name>
+        <jsp-file>/app/view/category-manager.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>changepassword</servlet-name>
+        <jsp-file>/app/view/changepassword.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>upload-gif</servlet-name>
+        <jsp-file>/app/view/content/content-upload-gif.jsp</jsp-file>
+    </servlet>
+
+    <servlet>
+        <servlet-name>list-pending</servlet-name>
+        <jsp-file>/app/view/content/list-pending.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>upload</servlet-name>
+        <jsp-file>/app/view/content/upload.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>upload-news</servlet-name>
+        <jsp-file>/app/view/content/upload-news.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>add-team</servlet-name>
+        <jsp-file>/app/view/content/add-team.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>team-member-manager</servlet-name>
+        <jsp-file>/app/view/content/team-member-manager.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>posts-management</servlet-name>
+        <jsp-file>/app/view/content/posts-management.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>team-member-edit</servlet-name>
+        <jsp-file>/app/view/content/team-member-edit.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>upload-posts-manager</servlet-name>
+        <jsp-file>/app/view/content/upload-posts-manager.jsp</jsp-file>
+    </servlet>
+
+    <servlet>
+        <servlet-name>video</servlet-name>
+        <jsp-file>/app/view/content/video.jsp</jsp-file>
+    </servlet>
+
+    <servlet>
+        <servlet-name>profile</servlet-name>
+        <jsp-file>/app/view/profile.jsp</jsp-file>
+    </servlet>
+
+    <servlet>
+        <servlet-name>youtube-edit</servlet-name>
+        <jsp-file>/app/view/content/youtube-edit.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>news-edit</servlet-name>
+        <jsp-file>/app/view/content/news-edit.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>posts-manager-edit</servlet-name>
+        <jsp-file>/app/view/content/posts-manager-edit.jsp</jsp-file>
+    </servlet>
+
+    <servlet>
+        <servlet-name>livestreaming</servlet-name>
+        <jsp-file>/app/view/content/livestreaming.jsp</jsp-file>
+    </servlet>
+
+    <servlet>
+        <servlet-name>livepost-edit</servlet-name>
+        <jsp-file>/app/view/content/livepost-edit.jsp</jsp-file>
+    </servlet>
+
+    <servlet>
+        <servlet-name>betmatch-management</servlet-name>
+        <jsp-file>/app/view/content/betmatch-management.jsp</jsp-file>
+    </servlet>
+
+    <servlet>
+        <servlet-name>upload-bet-match</servlet-name>
+        <jsp-file>/app/view/content/upload-bet-match.jsp</jsp-file>
+    </servlet>
+
+    <servlet>
+        <servlet-name>bet-match-manager-edit</servlet-name>
+        <jsp-file>/app/view/content/bet-match-manager-edit.jsp</jsp-file>
+    </servlet>
+
+    <servlet>
+        <servlet-name>bet-manager</servlet-name>
+        <jsp-file>/app/view/content/bet-management.jsp</jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Main</servlet-name>
+        <url-pattern>/Main</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet-mapping>
+        <servlet-name>dashboard</servlet-name>
+        <url-pattern>/dashboard</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>upload-news</servlet-name>
+        <url-pattern>/upload-news</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>add-team</servlet-name>
+        <url-pattern>/add-team</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>content-addnew</servlet-name>
+        <url-pattern>/content-addnew</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>content-manager</servlet-name>
+        <url-pattern>/content-manager</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>team-member-edit</servlet-name>
+        <url-pattern>/team-member-edit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>posts-manager-edit</servlet-name>
+        <url-pattern>/posts-manager-edit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>posts-management</servlet-name>
+        <url-pattern>/posts-management</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>news-manager</servlet-name>
+        <url-pattern>/news-manager</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>team-member-manager</servlet-name>
+        <url-pattern>/team-member-manager</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>upload-posts-manager</servlet-name>
+        <url-pattern>/upload-posts-manager</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>category-addnew</servlet-name>
+        <url-pattern>/category-addnew</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>category-manager</servlet-name>
+        <url-pattern>/category-manager</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>changepassword</servlet-name>
+        <url-pattern>/changepassword</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>upload-gif</servlet-name>
+        <url-pattern>/upload-gif</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>list-pending</servlet-name>
+        <url-pattern>/list-pending</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>upload</servlet-name>
+        <url-pattern>/upload</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>video</servlet-name>
+        <url-pattern>/video</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>youtube-edit</servlet-name>
+        <url-pattern>/youtube-edit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>news-edit</servlet-name>
+        <url-pattern>/news-edit</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>profile</servlet-name>
+        <url-pattern>/profile</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>livestreaming</servlet-name>
+        <url-pattern>/livestreaming</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>livepost-edit</servlet-name>
+        <url-pattern>/livepost-edit</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>betmatch-management</servlet-name>
+        <url-pattern>/betmatch-management</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>upload-bet-match</servlet-name>
+        <url-pattern>/upload-bet-match</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>bet-match-manager-edit</servlet-name>
+        <url-pattern>/bet-match-manager-edit</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>bet-manager</servlet-name>
+        <url-pattern>/bet-manager</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/app/view/common/errorpage.jsp</location>
+    </error-page>
+
+</web-app>
